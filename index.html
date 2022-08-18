@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Mi Portfolio</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="bootstrap-5.0.1-dist/css/bootstrap-grid.min.css"
+      rel="stylesheet"
+    />
+    <title>Juan Manuel Crespo - Fullstack Web Trainee</title>
+  </head>
+  <body>
+    <script language="javascript" type="text/javascript">
+      document.write("Hola Mundo");
+      var a = 1;
+      var b = "uno";
+      var c = true;
+      var d = "dos";
+      var e = ["agua", "tierra"];
+
+      document.write("<br>");
+      document.write(typeof a);
+      document.write("<br>");
+      document.write(typeof b);
+      document.write("<br>");
+      document.write(typeof c);
+      document.write("<br>");
+
+      function sequentialSearch(element, array) {
+        for (var i in array) {
+          if (array[i] == element) return i;
+        }
+
+        return "No se econtró la letra asignada";
+      }
+
+      var letters = [
+        "a",
+        "b",
+        "c",
+        "d",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+      ];
+
+      console.log(sequentialSearch("j", letters));
+    </script>
+  </body>
 </html>
