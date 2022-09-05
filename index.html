@@ -1,57 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="bootstrap-5.0.1-dist/css/bootstrap-grid.min.css"
-      rel="stylesheet"
-    />
-    <title>Juan Manuel Crespo - Fullstack Web Trainee</title>
+    <meta charset="utf-8" />
+    <title>Juan Manuel Crespo - Fullstack Developer Trainee</title>
+    <meta name="description" content="Roughly 155 characters" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
-    <script language="javascript" type="text/javascript">
-      document.write("Hola Mundo");
-      var a = 1;
-      var b = "uno";
-      var c = true;
-      var d = "dos";
-      var e = ["agua", "tierra"];
-
-      document.write("<br>");
-      document.write(typeof a);
-      document.write("<br>");
-      document.write(typeof b);
-      document.write("<br>");
-      document.write(typeof c);
-      document.write("<br>");
-
-      function sequentialSearch(element, array) {
-        for (var i in array) {
-          if (array[i] == element) return i;
-        }
-
-        return "No se econtró la letra asignada";
-      }
-
-      var letters = [
-        "a",
-        "b",
-        "c",
-        "d",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-      ];
-
-      console.log(sequentialSearch("j", letters));
-    </script>
+    <header id="fotos-header">
+      <img
+        id="banner-header"
+        src="https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-black-shading-red-shard-geometry-banner-background-shadingred-debrisred-glowgeometry-image_80184.jpg"
+      />
+      <!--Pongo una imagen de ejemplo
+      pero al final de curso iria una foto de perfil mia-->
+      <img
+        id="foto-perfil"
+        src="https://i.pinimg.com/474x/f5/14/cd/f514cd4c2cf13c7c3d5e164d3b335ea2.jpg"
+      />
+      <h1>Juan Crespo</h1>
+      <p>futuro desarrollador Fullstack</p>
+      <p>Buenos Aires, Argentina</p>
+      <a href="/info_contacto.html">información de contacto</a>
+      <nav>
+        <ul>
+          <a href="index.html"><li>About Me</li></a>
+          <a href="mis_trabajos.html"><li>Mis Trabajos</li></a>
+          <a href="contacto.html"><li>Contacto</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Sobre mi</h2>
+      <p>Poseo conocimientos sobre programas de diseño como Adobe illustrator, Adobe Photoshop y Abobe InDesign; nivel avanzado de inglés escrito y oral .
+        Actualmente aprendo a crear aplicaciones Web y Empresariales, con lenguaje de programación Java, JavaScript y Angular. 
+        
+        Mi profesión me apasiona y me motiva, por eso siempre estoy buscando mejorar mi técnica y adquirir más habilidades, siempre buscando oportunidades para crecer. 
+        Cada uno de mis proyectos, ya sean en solitario o en colaboración, me permitieron avanzar un poco más en esta industria ágil y competitiva.</p>
+    </main>
+    <footer>
+      <p>© Copyright 2022. Todos los derechos reservados </p>
+    </footer>
   </body>
 </html>
